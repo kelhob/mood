@@ -22,13 +22,13 @@ guess3 = input("eat well (0 or 1): ")
 guess4 = input("sleep scr (0-10): ")
 
 guess5 = input("sensory overwhelm/anxiety scr (0-10): ")
-#10 being high and 0 being low - how close are you to snapping? how tapped out are you? 
+#10 being high and 0 being low 
 
 now = datetime.datetime.now()
 
 #save results
 
-save_path = "C:/Users/kelbla/Documents/Testing/python_training/hackerrank/"
+save_path = "C:/Users/kelbla/Documents/Kelly_docs/Kelly_docs/portfolio"
 outfile="mood.out"
 completeName = os.path.join(save_path, outfile)         
 
